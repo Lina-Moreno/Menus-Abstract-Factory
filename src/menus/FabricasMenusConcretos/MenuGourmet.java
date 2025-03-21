@@ -1,14 +1,8 @@
 package menus.FabricasMenusConcretos;
 
-import menus.Gourmet.EntradaGourmet;
-import menus.Gourmet.PlatoPrincipalGourmet;
-import menus.Gourmet.BebidaGourmet;
-import menus.Gourmet.PostreGourmet;
+import menus.Gourmet.*;
 import menus.FabricaMenus;
-import menus.InterfacesMenu.Entrada;
-import menus.InterfacesMenu.PlatoPrincipal;
-import menus.InterfacesMenu.Bebida;
-import menus.InterfacesMenu.Postre;
+import menus.InterfacesMenu.*;
 
 public class MenuGourmet implements FabricaMenus {
     @Override

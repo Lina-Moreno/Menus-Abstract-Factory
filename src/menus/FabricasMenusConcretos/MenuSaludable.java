@@ -1,14 +1,8 @@
 package menus.FabricasMenusConcretos;
 
-import menus.Saludable.EntradaSaludable;
-import menus.Saludable.PlatoPrincipalSaludable;
-import menus.Saludable.BebidaSaludable;
-import menus.Saludable.PostreSaludable;
+import menus.Saludable.*;
 import menus.FabricaMenus;
-import menus.InterfacesMenu.Entrada;
-import menus.InterfacesMenu.PlatoPrincipal;
-import menus.InterfacesMenu.Bebida;
-import menus.InterfacesMenu.Postre;
+import menus.InterfacesMenu.*;
 
 public class MenuSaludable implements FabricaMenus {
     @Override

@@ -1,14 +1,8 @@
 package menus.FabricasMenusConcretos;
 
-import menus.Vegetariano.EntradaVegetariana;
-import menus.Vegetariano.PlatoPrincipalVegetariano;
-import menus.Vegetariano.BebidaVegetariana;
-import menus.Vegetariano.PostreVegetariano;
+import menus.Vegetariano.*;
 import menus.FabricaMenus;
-import menus.InterfacesMenu.Entrada;
-import menus.InterfacesMenu.PlatoPrincipal;
-import menus.InterfacesMenu.Bebida;
-import menus.InterfacesMenu.Postre;
+import menus.InterfacesMenu.*;
 
 public class MenuVegetariano implements FabricaMenus {
     @Override

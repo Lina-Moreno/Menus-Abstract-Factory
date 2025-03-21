@@ -1,10 +1,7 @@
 
 package menus;
 
-import menus.InterfacesMenu.Postre;
-import menus.InterfacesMenu.PlatoPrincipal;
-import menus.InterfacesMenu.Entrada;
-import menus.InterfacesMenu.Bebida;
+import menus.InterfacesMenu.*;
 
 public interface FabricaMenus {
     public Entrada crearEntrada();
